@@ -10,7 +10,7 @@
     "prepare": "husky"
   },
   "prisma": {
-    "seed": "prisma/seed.ts"
+    "seed": "ts-node prisma/seed.ts"
   },
   "dependencies": {
     "@prisma/client": "^5.17.0",
